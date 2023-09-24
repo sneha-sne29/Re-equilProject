@@ -28,10 +28,9 @@ public class Productsearchpagecls {
 	@FindBy(name="add") WebElement cart;
 	
 	@FindBy(xpath="//header/div[2]/div[1]/a[2]/*[1]") WebElement carticon;
-	//@FindBy(xpath="//*[@id=\"CartDrawer-Item-1\"]/div[2]/div[2]/div/div[1]/div[1]/quantity-input/button[1]") WebElement quantity;
 	
 	
-	//@FindBy(xpath="//span[contains(text(),'Place Order')]") WebElement checkoutbtn;
+	@FindBy(xpath="//span[contains(text(),'Place Order')]") WebElement checkoutbtn;
 	
 	public Productsearchpagecls(WebDriver driver)
 	{
@@ -65,12 +64,6 @@ public class Productsearchpagecls {
 		
 	}
 	
-	/*public void cart()
-	{
-		carticon.click();
-		//quantity.click();
-		//checkoutbtn.click();
-	}*/
 	
 
 	
